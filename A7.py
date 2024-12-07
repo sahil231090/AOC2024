@@ -42,7 +42,7 @@ def run(n_arr, o_arr):
         elif o == '*':
             s *= n
         elif o == '||':
-            # Concatenate the numbers as strings and convert back to integer
+            # 546 || 23 = 54623
             s = int(str(s) + str(n))
     return s
 
